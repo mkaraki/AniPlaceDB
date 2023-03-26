@@ -1,0 +1,54 @@
+baseURL = 'https://aniplace.mkarakiapps.com'
+languageCode = 'ja'
+defaultContentLanguage = "ja"
+title = 'AniPlace DB'
+theme = 'hugo-tranquilpeak-theme'
+#enableGitInfo = true
+hasCJKLanguage = true
+
+[author]
+name = "mkaraki"
+
+[taxonomies]
+series = 'series'
+place = 'places'
+tag = 'tags'
+
+[params]
+dateFormat = "2006/1/2"
+sidebarBehavior = 1
+thumbnailImage = true
+thumbnailImagePosition = "right"
+autoThumbnailImage = true
+coverImage = "images/cover.jpg"
+favicon = "/favicon.png"
+imageGallery = true
+hierarchicalCategories = true
+syntaxHighlighter = 'highlight.js'
+
+
+[[menu.main]]
+weight = 2
+identifier = "place"
+name = "場所"
+pre = "<i class=\"sidebar-button-icon fas fa-lg fa-map-marker\" aria-hidden=\"true\"></i>"
+url = "/places"
+[[menu.main]]
+weight = 3
+identifier = "series"
+name = "作品"
+pre = "<i class=\"sidebar-button-icon fas fa-lg fa-film\" aria-hidden=\"true\"></i>"
+url = "/series"
+#[[menu.main]]
+#weight = 4
+#identifier = "tags"
+#name = "Tags"
+#pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+#url = "/tags"
+
+[[menu.misc]]
+weight = 0
+identifier = "rss"
+name = "RSS"
+pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+url = "/index.xml"
