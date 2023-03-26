@@ -3,7 +3,7 @@ languageCode = 'ja'
 defaultContentLanguage = "ja"
 title = 'AniPlace DB'
 theme = 'hugo-tranquilpeak-theme'
-#enableGitInfo = true
+enableGitInfo = true
 hasCJKLanguage = true
 
 [author]
